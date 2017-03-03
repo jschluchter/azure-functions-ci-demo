@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "uploads/{item}",
+      "connection": "storzcfunc_STORAGE"
+    }
+  ],
+  "disabled": false
+}

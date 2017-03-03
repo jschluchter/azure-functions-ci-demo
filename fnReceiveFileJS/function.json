@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "input",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "upload-javascript/{blob}.{extension}",
+      "connection": "storzcfunc_STORAGE"
+    }
+  ],
+  "disabled": false
+}
