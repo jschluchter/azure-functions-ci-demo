@@ -1,8 +1,10 @@
 var appInsights = require("applicationinsights");
-appInsights.setup("111ad0d5-4a72-44aa-a2d5-0f58e2e4bb5a").start();
-var client = appInsights.getClient();
+
 
 module.exports = function (context, data) {
+    
+    appInsights.setup("111ad0d5-4a72-44aa-a2d5-0f58e2e4bb5a").start();
+    var client = appInsights.getClient();
 
     client.trackEvent("fn-event", {customProperty: "azure function nodejs webhook"});
 
