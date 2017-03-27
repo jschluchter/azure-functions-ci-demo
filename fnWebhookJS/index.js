@@ -23,3 +23,7 @@ module.exports = function (context, data) {
 
     context.done();
 }
+
+
+// sample url
+// https://fn-jds.azurewebsites.net/api/fnWebhookJS?code=wVoiaLlQxYGN6rnzVSJa7Nv/ypTS5wlGY4yn/VmW7oJyDwAEOlYaNA==
