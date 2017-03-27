@@ -4,7 +4,7 @@ module.exports = function (context, data) {
     // Check if we got first/last properties
     if('first' in data && 'last' in data) {
         context.res = {
-            body: { greeting: 'Hello ' + data.first + ' ' + data.last + '!'}
+            body: { greeting: 'Testing for  ' + data.first + ' ' + data.last + '!'}
         };
     }
     else {
