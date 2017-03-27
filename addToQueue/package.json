@@ -1,0 +1,15 @@
+{
+  "name": "add to storage queue",
+  "version": "1.0.0",
+  "description": "monitor blob container for files, then add a queue message",
+  "main": "index.js",
+  "dependencies": {
+    "applicationinsights": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joey schluchter",
+  "license": "ISC"
+}

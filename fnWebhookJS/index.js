@@ -2,7 +2,6 @@ var appInsights = require("applicationinsights");
 const uuidV4 = require("uuid/v4");
 
 appInsights.setup().start();
-// Generate a v4 UUID (random)
 
 
 var client = appInsights.getClient();
