@@ -1,5 +1,5 @@
 {
-  "name": "add to storage queue",
+  "name": "fnaddToQueue",
   "version": "1.0.0",
   "description": "monitor blob container for files, then add a queue message",
   "main": "index.js",
