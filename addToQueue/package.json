@@ -4,7 +4,8 @@
   "description": "monitor blob container for files, then add a queue message",
   "main": "index.js",
   "dependencies": {
-    "applicationinsights": "^0.19.0"
+    "applicationinsights": "^0.19.0",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
