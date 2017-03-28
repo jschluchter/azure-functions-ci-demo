@@ -2,7 +2,7 @@ var appInsights = require("applicationinsights");
 const uuidV4 = require("uuid/v4");
 var client = appInsights.getClient();
 
-var inputModel = { first, last, email, phone };
+var inputModel = { first: "", last: "", email: "", phone: "" };
 var outputModel = {
     success: true,
     errors: [],
@@ -29,5 +29,5 @@ module.exports = function (context, data) {
     }
 
     context.done();
-    
+
 }
